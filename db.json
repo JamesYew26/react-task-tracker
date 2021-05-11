@@ -5,6 +5,12 @@
       "day": "May 15th 8 am",
       "reminder": true,
       "id": 1
+    },
+    {
+      "text": "Practice Programming",
+      "day": "May 12th 10 am ",
+      "reminder": false,
+      "id": 2
     }
   ]
 }

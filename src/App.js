@@ -59,9 +59,6 @@ const addTask = async (task) => {
 }
 
 
-
-
-
 //Delete Task
 const deleteTask = async (id) =>{
   await fetch(`http://localhost:5000/tasks/${id}`,{
@@ -113,7 +110,7 @@ const toggleReminder = async (id)=>{
      {tasks.length > 0 ? (
      <Tasks tasks={tasks} 
      onDelete={deleteTask} 
-     onToggle={toggleReminder}/> ):( 'No tasks to show')}
+     onToggle={toggleReminder}/> ):('No tasks to show')}
      </>
      )}/>
      
